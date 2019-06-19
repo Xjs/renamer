@@ -28,7 +28,7 @@ func main() {
 	sB := bufio.NewScanner(fB)
 
 	for {
-		if !sA.Scan() || sB.Scan() {
+		if !sA.Scan() || !sB.Scan() {
 			break
 		}
 
